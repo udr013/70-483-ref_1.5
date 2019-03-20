@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomExceptions", "CustomExceptions\CustomExceptions.csproj", "{C46E754E-58CB-4B59-AF6C-A8EBB5C9CBE1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InnerExceptions", "InnerExceptions\InnerExceptions.csproj", "{8F5A3E72-FD24-4A4E-86F3-95A70097BFF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AggregateExceptions", "AggregateExceptions\AggregateExceptions.csproj", "{A94B973B-9CEC-407C-AD50-7CD3DD3A34FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{C46E754E-58CB-4B59-AF6C-A8EBB5C9CBE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C46E754E-58CB-4B59-AF6C-A8EBB5C9CBE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C46E754E-58CB-4B59-AF6C-A8EBB5C9CBE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F5A3E72-FD24-4A4E-86F3-95A70097BFF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F5A3E72-FD24-4A4E-86F3-95A70097BFF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F5A3E72-FD24-4A4E-86F3-95A70097BFF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F5A3E72-FD24-4A4E-86F3-95A70097BFF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A94B973B-9CEC-407C-AD50-7CD3DD3A34FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A94B973B-9CEC-407C-AD50-7CD3DD3A34FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A94B973B-9CEC-407C-AD50-7CD3DD3A34FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A94B973B-9CEC-407C-AD50-7CD3DD3A34FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
