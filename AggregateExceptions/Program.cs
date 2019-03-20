@@ -17,11 +17,12 @@ namespace AggregateExceptions
         {
             try
             {
-                Task<string> getpage = FetchWebPage("http://google.com");
+                Task<string> getpage = FetchWebPage("invalid uri");
                 getpage.Wait();
                 Console.WriteLine(getpage.Result);
-                throw new ArgumentNullException();
+               
             }
+            //pitty this one only contains one...
             catch (AggregateException ag)
             {
                 foreach(Exception e in ag.InnerExceptions)
